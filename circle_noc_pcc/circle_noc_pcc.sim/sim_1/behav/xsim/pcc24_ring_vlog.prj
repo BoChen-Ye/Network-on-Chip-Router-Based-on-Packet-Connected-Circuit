@@ -1,0 +1,21 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../circle_noc_pcc.srcs/sources_1/ip/rom/sim/rom.v" \
+"../../../../../src/Arbiter.v" \
+"../../../../../src/Crossbar.v" \
+"../../../../../src/Decoder.v" \
+"../../../../../src/InputFSM.v" \
+"../../../../../src/OutputFSM.v" \
+"../../../../../src/PCC_3op.v" \
+"../../../../../src/PCC_4op.v" \
+"../../../../../src/Priority.v" \
+"../../../../../src/RecData.v" \
+"../../../../../src/SendData.v" \
+"../../../../../src/uart_send.v" \
+"../../../../../src/pcc24_ring.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

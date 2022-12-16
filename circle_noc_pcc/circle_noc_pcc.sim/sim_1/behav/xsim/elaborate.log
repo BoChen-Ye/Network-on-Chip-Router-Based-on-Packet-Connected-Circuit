@@ -1,0 +1,60 @@
+Vivado Simulator 2020.1
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2020.1/bin/unwrapped/win64.o/xelab.exe -wto f104c74ab1924e87a8f686821620dd2a --incr --debug typical --relax --mt 2 -L blk_mem_gen_v8_4_4 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot pcc24_ring_tb_behav xil_defaultlib.pcc24_ring_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3705] select index 3 into 'decoder_select_i' is out of bounds [D:/BaiduNetdiskDownload/NoC-PCC/pcc_circle/src/Decoder2.v:43]
+WARNING: [VRFC 10-3283] element index 31 into 'decoder_address_i' is out of bounds [D:/BaiduNetdiskDownload/NoC-PCC/pcc_circle/src/Decoder2.v:43]
+WARNING: [VRFC 10-3705] select index 3 into 'decoder_select_i' is out of bounds [D:/BaiduNetdiskDownload/NoC-PCC/pcc_circle/src/Decoder2.v:59]
+WARNING: [VRFC 10-3283] element index 3 into 'dest_num' is out of bounds [D:/BaiduNetdiskDownload/NoC-PCC/pcc_circle/src/Decoder2.v:161]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.InputFSM
+Compiling module xil_defaultlib.Priority_3op
+Compiling module xil_defaultlib.Decoder(PORTS=3)
+Compiling module xil_defaultlib.Arbiter_3op
+Compiling module xil_defaultlib.Crossbar_3op
+Compiling module xil_defaultlib.OutputFSM
+Compiling module xil_defaultlib.PCC_3op(LOCAL_Y=0,LOCAL_X=1)
+Compiling module xil_defaultlib.PCC_3op(LOCAL_Y=1,LOCAL_X=1)
+Compiling module xil_defaultlib.Priority
+Compiling module xil_defaultlib.Decoder
+Compiling module xil_defaultlib.Arbiter
+Compiling module xil_defaultlib.Crossbar
+Compiling module xil_defaultlib.PCC_4op(LOCAL_Y=2,LOCAL_X=1)
+Compiling module xil_defaultlib.PCC_3op(LOCAL_Y=3,LOCAL_X=1)
+Compiling module xil_defaultlib.PCC_3op(LOCAL_Y=4,LOCAL_X=1)
+Compiling module xil_defaultlib.PCC_3op(LOCAL_Y=5,LOCAL_X=1)
+Compiling module xil_defaultlib.PCC_4op(LOCAL_Y=6,LOCAL_X=1)
+Compiling module xil_defaultlib.PCC_3op(LOCAL_Y=7,LOCAL_X=1)
+Compiling module xil_defaultlib.PCC_3op(LOCAL_Y=8,LOCAL_X=1)
+Compiling module xil_defaultlib.PCC_3op(LOCAL_Y=9,LOCAL_X=1)
+Compiling module xil_defaultlib.PCC_4op(LOCAL_Y=10,LOCAL_X=1)
+Compiling module xil_defaultlib.PCC_3op(LOCAL_Y=11,LOCAL_X=1)
+Compiling module xil_defaultlib.PCC_3op(LOCAL_Y=12,LOCAL_X=1)
+Compiling module xil_defaultlib.PCC_3op(LOCAL_Y=13,LOCAL_X=1)
+Compiling module xil_defaultlib.PCC_4op(LOCAL_Y=14,LOCAL_X=1)
+Compiling module xil_defaultlib.PCC_3op(LOCAL_Y=15,LOCAL_X=1)
+Compiling module xil_defaultlib.PCC_3op(LOCAL_Y=0,LOCAL_X=2)
+Compiling module xil_defaultlib.PCC_4op(LOCAL_Y=1,LOCAL_X=2)
+Compiling module xil_defaultlib.PCC_3op(LOCAL_Y=2,LOCAL_X=2)
+Compiling module xil_defaultlib.PCC_4op(LOCAL_Y=3,LOCAL_X=2)
+Compiling module xil_defaultlib.PCC_3op(LOCAL_Y=4,LOCAL_X=2)
+Compiling module xil_defaultlib.PCC_4op(LOCAL_Y=5,LOCAL_X=2)
+Compiling module xil_defaultlib.PCC_3op(LOCAL_Y=6,LOCAL_X=2)
+Compiling module xil_defaultlib.PCC_4op(LOCAL_Y=7,LOCAL_X=2)
+Compiling module xil_defaultlib.RecData
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_output_stage(...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_softecc_outpu...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4(C_ELABORATION...
+Compiling module xil_defaultlib.rom
+Compiling module xil_defaultlib.SendData(PACKAGE_LENGTH=12'b0100...
+Compiling module xil_defaultlib.uart_send(UART_BPS=115200,DEPTH=...
+Compiling module xil_defaultlib.pcc24_ring
+Compiling module xil_defaultlib.pcc24_ring_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot pcc24_ring_tb_behav

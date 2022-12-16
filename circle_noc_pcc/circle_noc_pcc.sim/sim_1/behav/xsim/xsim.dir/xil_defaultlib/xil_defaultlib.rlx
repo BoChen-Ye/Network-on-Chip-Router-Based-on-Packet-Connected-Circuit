@@ -1,0 +1,27 @@
+0.7
+2020.1
+May 27 2020
+20:09:33
+D:/BaiduNetdiskDownload/NoC-PCC/pcc_circle/circle_noc_pcc/circle_noc_pcc.sim/sim_1/behav/xsim/glbl.v,1590624368,verilog,,,,glbl,,,,,,,,
+D:/BaiduNetdiskDownload/NoC-PCC/pcc_circle/circle_noc_pcc/circle_noc_pcc.srcs/sources_1/ip/rom/sim/rom.v,1646899085,verilog,,D:/BaiduNetdiskDownload/NoC-PCC/pcc_circle/src/Arbiter.v,,rom,,,,,,,,
+D:/BaiduNetdiskDownload/NoC-PCC/pcc_circle/src/Arbiter.v,1647054156,verilog,,D:/BaiduNetdiskDownload/NoC-PCC/pcc_circle/src/Arbiter_3op.v,,Arbiter,,,,,,,,
+D:/BaiduNetdiskDownload/NoC-PCC/pcc_circle/src/Arbiter_3op.v,1647054138,verilog,,D:/BaiduNetdiskDownload/NoC-PCC/pcc_circle/src/Crossbar.v,,Arbiter_3op,,,,,,,,
+D:/BaiduNetdiskDownload/NoC-PCC/pcc_circle/src/Crossbar.v,1646897507,verilog,,D:/BaiduNetdiskDownload/NoC-PCC/pcc_circle/src/Crossbar_3op.v,,Crossbar,,,,,,,,
+D:/BaiduNetdiskDownload/NoC-PCC/pcc_circle/src/Crossbar_3op.v,1647068339,verilog,,D:/BaiduNetdiskDownload/NoC-PCC/pcc_circle/src/Decoder2.v,,Crossbar_3op,,,,,,,,
+D:/BaiduNetdiskDownload/NoC-PCC/pcc_circle/src/Decoder2.v,1652192794,verilog,,D:/BaiduNetdiskDownload/NoC-PCC/pcc_circle/src/InputFSM.v,,Decoder,,,,,,,,
+D:/BaiduNetdiskDownload/NoC-PCC/pcc_circle/src/InputFSM.v,1649227364,verilog,,D:/BaiduNetdiskDownload/NoC-PCC/pcc_circle/src/OutputFSM.v,,InputFSM,,,,,,,,
+D:/BaiduNetdiskDownload/NoC-PCC/pcc_circle/src/OutputFSM.v,1646880716,verilog,,D:/BaiduNetdiskDownload/NoC-PCC/pcc_circle/src/PCC_3op.v,,OutputFSM,,,,,,,,
+D:/BaiduNetdiskDownload/NoC-PCC/pcc_circle/src/PCC_3op.v,1649227295,verilog,,D:/BaiduNetdiskDownload/NoC-PCC/pcc_circle/src/PCC_4op.v,,PCC_3op,,,,,,,,
+D:/BaiduNetdiskDownload/NoC-PCC/pcc_circle/src/PCC_4op.v,1649226890,verilog,,D:/BaiduNetdiskDownload/NoC-PCC/pcc_circle/src/Priority.v,,PCC_4op,,,,,,,,
+D:/BaiduNetdiskDownload/NoC-PCC/pcc_circle/src/Priority.v,1647246090,verilog,,D:/BaiduNetdiskDownload/NoC-PCC/pcc_circle/src/Priority_3op.v,,Priority,,,,,,,,
+D:/BaiduNetdiskDownload/NoC-PCC/pcc_circle/src/Priority_3op.v,1647241697,verilog,,D:/BaiduNetdiskDownload/NoC-PCC/pcc_circle/src/RecData.v,,Priority_3op,,,,,,,,
+D:/BaiduNetdiskDownload/NoC-PCC/pcc_circle/src/RecData.v,1490779120,verilog,,D:/BaiduNetdiskDownload/NoC-PCC/pcc_circle/src/SendData.v,,RecData,,,,,,,,
+D:/BaiduNetdiskDownload/NoC-PCC/pcc_circle/src/SendData.v,1648992154,verilog,,D:/BaiduNetdiskDownload/NoC-PCC/pcc_circle/src/pcc24_ring.v,,SendData,,,,,,,,
+D:/BaiduNetdiskDownload/NoC-PCC/pcc_circle/src/flow_out_2.v,1648002694,verilog,,D:/BaiduNetdiskDownload/NoC-PCC/pcc_circle/src/pcc24_ring.v,,flow_output_2,,,,,,,,
+D:/BaiduNetdiskDownload/NoC-PCC/pcc_circle/src/flow_out_8.v,1648023844,verilog,,D:/BaiduNetdiskDownload/NoC-PCC/pcc_circle/src/pcc24_ring.v,,flow_output_8,,,,,,,,
+D:/BaiduNetdiskDownload/NoC-PCC/pcc_circle/src/flow_output.v,1647698386,verilog,,D:/BaiduNetdiskDownload/NoC-PCC/pcc_circle/src/pcc24_ring.v,,flow_output,,,,,,,,
+D:/BaiduNetdiskDownload/NoC-PCC/pcc_circle/src/monitor_f1.v,1649129471,verilog,,D:/BaiduNetdiskDownload/NoC-PCC/pcc_circle/src/pcc24_ring.v,,monitor_f1,,,,,,,,
+D:/BaiduNetdiskDownload/NoC-PCC/pcc_circle/src/pcc24_ring.v,1652161793,verilog,,D:/BaiduNetdiskDownload/NoC-PCC/pcc_circle/src/uart_send.v,,pcc24_ring,,,,,,,,
+D:/BaiduNetdiskDownload/NoC-PCC/pcc_circle/src/pcc24_ring_tb.v,1646984695,verilog,,,,pcc24_ring_tb,,,,,,,,
+D:/BaiduNetdiskDownload/NoC-PCC/pcc_circle/src/uart_send.v,1647939962,verilog,,D:/BaiduNetdiskDownload/NoC-PCC/pcc_circle/src/pcc24_ring_tb.v,,uart_send,,,,,,,,
+D:/BaiduNetdiskDownload/NoC-PCC/pcc_circle_2/src/breakdown.v,1650277402,verilog,,D:/BaiduNetdiskDownload/NoC-PCC/pcc_circle/src/pcc24_ring.v,,breakdown,,,,,,,,

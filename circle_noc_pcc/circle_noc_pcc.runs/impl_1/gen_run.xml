@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a35tfgg484-2" LaunchTime="1652192803">
+  <File Type="ROUTE-PWR" Name="pcc24_ring_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="pcc24_ring.tcl"/>
+  <File Type="ROUTE-PWR-SUM" Name="pcc24_ring_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="pcc24_ring_reports.tcl"/>
+  <File Type="BITSTR-MSK" Name="pcc24_ring.msk"/>
+  <File Type="ROUTE-CLK" Name="pcc24_ring_clock_utilization_routed.rpt"/>
+  <File Type="RDI-RDI" Name="pcc24_ring.vdi"/>
+  <File Type="BG-BIT" Name="pcc24_ring.bit"/>
+  <File Type="BG-DRC" Name="pcc24_ring.drc"/>
+  <File Type="BG-BGN" Name="pcc24_ring.bgn"/>
+  <File Type="BG-BIN" Name="pcc24_ring.bin"/>
+  <File Type="BITSTR-RBT" Name="pcc24_ring.rbt"/>
+  <File Type="BITSTR-NKY" Name="pcc24_ring.nky"/>
+  <File Type="BITSTR-BMM" Name="pcc24_ring_bd.bmm"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="pcc24_ring_methodology_drc_routed.rpt"/>
+  <File Type="BITSTR-MMI" Name="pcc24_ring.mmi"/>
+  <File Type="BITSTR-SYSDEF" Name="pcc24_ring.sysdef"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="pcc24_ring.ltx"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="OPT-DRC" Name="pcc24_ring_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="pcc24_ring.hwdef"/>
+  <File Type="PLACE-IO" Name="pcc24_ring_io_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="pcc24_ring_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="pcc24_ring_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="pcc24_ring_control_sets_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="pcc24_ring_incremental_reuse_pre_placed.rpt"/>
+  <File Type="ROUTE-DRC" Name="pcc24_ring_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="pcc24_ring_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="pcc24_ring_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="pcc24_ring_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="pcc24_ring_route_status.pb"/>
+  <File Type="ROUTE-DCP" Name="pcc24_ring_routed.dcp"/>
+  <File Type="ROUTE-ERROR-DCP" Name="pcc24_ring_routed_error.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="pcc24_ring_routed_bb.dcp"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="pcc24_ring_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="pcc24_ring_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="pcc24_ring_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-BUS-SKEW" Name="pcc24_ring_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="pcc24_ring_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="pcc24_ring_bus_skew_routed.rpx"/>
+  <File Type="OPT-DCP" Name="pcc24_ring_opt.dcp"/>
+  <File Type="PLACE-DCP" Name="pcc24_ring_placed.dcp"/>
+  <File Type="PWROPT-DCP" Name="pcc24_ring_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="pcc24_ring_postplace_pwropt.dcp"/>
+  <File Type="PHYSOPT-DCP" Name="pcc24_ring_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="pcc24_ring_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="pcc24_ring_postroute_physopt_bb.dcp"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="pcc24_ring_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="pcc24_ring_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="pcc24_ring_methodology_drc_routed.rpx"/>
+  <File Type="PDI-FILE" Name="pcc24_ring.pdi"/>
+  <File Type="RCFI_FILE" Name="pcc24_ring.rcfi"/>
+  <File Type="CFI_FILE" Name="pcc24_ring.cfi"/>
+  <File Type="RNPI_FILE" Name="pcc24_ring.rnpi"/>
+  <File Type="NPI_FILE" Name="pcc24_ring.npi"/>
+  <File Type="RBD_FILE" Name="pcc24_ring.rbd"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PPRDIR/../src/Arbiter.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../src/Arbiter_3op.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../src/Crossbar.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../src/Crossbar_3op.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../src/Decoder2.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../src/InputFSM.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../src/OutputFSM.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../src/PCC_3op.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../src/PCC_4op.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../src/Priority.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../src/Priority_3op.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../src/RecData.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../src/SendData.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../src/uart_send.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../src/pcc24_ring.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../pcc_circle_2/src/breakdown.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../src/monitor_f1.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../src/flow_out_8.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../src/uart_send_data.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../src/flow_out_2.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../src/flow_output.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../src/data.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="pcc24_ring"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PPRDIR/../src/uart.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2020"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+    <Step Id="write_device_image"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="rom"/>
+</GenRun>

@@ -1,0 +1,28 @@
+# compile verilog/system verilog design source files
+verilog blk_mem_gen_v8_4_4  \
+"../../../../circle_noc_pcc.ip_user_files/ipstatic/simulation/blk_mem_gen_v8_4.v" \
+
+verilog xil_defaultlib  \
+"../../../../circle_noc_pcc.srcs/sources_1/ip/rom/sim/rom.v" \
+"../../../../../src/Arbiter.v" \
+"../../../../../src/Arbiter_3op.v" \
+"../../../../../src/Crossbar.v" \
+"../../../../../src/Crossbar_3op.v" \
+"../../../../../src/Decoder2.v" \
+"../../../../../src/InputFSM.v" \
+"../../../../../src/OutputFSM.v" \
+"../../../../../src/PCC_3op.v" \
+"../../../../../src/PCC_4op.v" \
+"../../../../../src/Priority.v" \
+"../../../../../src/Priority_3op.v" \
+"../../../../../src/RecData.v" \
+"../../../../../src/SendData.v" \
+"../../../../../src/pcc24_ring.v" \
+"../../../../../src/uart_send.v" \
+"../../../../../src/pcc24_ring_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

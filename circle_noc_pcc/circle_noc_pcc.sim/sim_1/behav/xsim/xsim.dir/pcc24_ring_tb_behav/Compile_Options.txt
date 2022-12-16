@@ -1,0 +1,1 @@
+-wto "f104c74ab1924e87a8f686821620dd2a" --incr --debug "typical" --relax --mt "2" -L "blk_mem_gen_v8_4_4" -L "xil_defaultlib" -L "unisims_ver" -L "unimacro_ver" -L "secureip" -L "xpm" --snapshot "pcc24_ring_tb_behav" "xil_defaultlib.pcc24_ring_tb" "xil_defaultlib.glbl" -log "elaborate.log" 

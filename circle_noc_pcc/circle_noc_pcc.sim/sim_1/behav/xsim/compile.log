@@ -1,0 +1,41 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/BaiduNetdiskDownload/NoC-PCC/pcc_circle/circle_noc_pcc/circle_noc_pcc.srcs/sources_1/ip/rom/sim/rom.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module rom
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/BaiduNetdiskDownload/NoC-PCC/pcc_circle/src/Arbiter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Arbiter
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/BaiduNetdiskDownload/NoC-PCC/pcc_circle/src/Arbiter_3op.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Arbiter_3op
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/BaiduNetdiskDownload/NoC-PCC/pcc_circle/src/Crossbar.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Crossbar
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/BaiduNetdiskDownload/NoC-PCC/pcc_circle/src/Crossbar_3op.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Crossbar_3op
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/BaiduNetdiskDownload/NoC-PCC/pcc_circle/src/Decoder2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Decoder
+WARNING: [VRFC 10-3380] identifier 'src_r_delay' is used before its declaration [D:/BaiduNetdiskDownload/NoC-PCC/pcc_circle/src/Decoder2.v:177]
+WARNING: [VRFC 10-3380] identifier 'src_r_delay' is used before its declaration [D:/BaiduNetdiskDownload/NoC-PCC/pcc_circle/src/Decoder2.v:179]
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/BaiduNetdiskDownload/NoC-PCC/pcc_circle/src/InputFSM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module InputFSM
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/BaiduNetdiskDownload/NoC-PCC/pcc_circle/src/OutputFSM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module OutputFSM
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/BaiduNetdiskDownload/NoC-PCC/pcc_circle/src/PCC_3op.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PCC_3op
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/BaiduNetdiskDownload/NoC-PCC/pcc_circle/src/PCC_4op.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PCC_4op
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/BaiduNetdiskDownload/NoC-PCC/pcc_circle/src/Priority.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Priority
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/BaiduNetdiskDownload/NoC-PCC/pcc_circle/src/Priority_3op.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Priority_3op
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/BaiduNetdiskDownload/NoC-PCC/pcc_circle/src/RecData.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RecData
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/BaiduNetdiskDownload/NoC-PCC/pcc_circle/src/SendData.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SendData
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/BaiduNetdiskDownload/NoC-PCC/pcc_circle/src/pcc24_ring.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pcc24_ring
+INFO: [VRFC 10-2458] undeclared symbol PCC_ip_cancel_15_1_o0, assumed default net type wire [D:/BaiduNetdiskDownload/NoC-PCC/pcc_circle/src/pcc24_ring.v:1905]
+INFO: [VRFC 10-2458] undeclared symbol PCC_op_fwd_3_2_03, assumed default net type wire [D:/BaiduNetdiskDownload/NoC-PCC/pcc_circle/src/pcc24_ring.v:2173]
+INFO: [VRFC 10-2458] undeclared symbol PCC_op_cancel_3_2_o3, assumed default net type wire [D:/BaiduNetdiskDownload/NoC-PCC/pcc_circle/src/pcc24_ring.v:2193]
+WARNING: [VRFC 10-159] /* in comment [D:/BaiduNetdiskDownload/NoC-PCC/pcc_circle/src/pcc24_ring.v:2860]
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/BaiduNetdiskDownload/NoC-PCC/pcc_circle/src/uart_send.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module uart_send
+WARNING: [VRFC 10-3676] redeclaration of ansi port 'emptyp' is not allowed [D:/BaiduNetdiskDownload/NoC-PCC/pcc_circle/src/uart_send.v:27]
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/BaiduNetdiskDownload/NoC-PCC/pcc_circle/src/pcc24_ring_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pcc24_ring_tb
