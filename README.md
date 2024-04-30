@@ -7,6 +7,7 @@ Verify it on FPGA and use UART(with FIFO) to communicate with PC.
 - PCC don't need buffer
 - Double-Ring topology can use less hardware resource than Mesh
 - Fault-tolerant routing algorithm
+
 ![Router Architecture](figure/NOCPCC.png)
 ![Verification Platform](figure/fpga.png)
 
