@@ -1,7 +1,0 @@
-set_property SRC_FILE_INFO {cfile:D:/BaiduNetdiskDownload/NoC-PCC/pcc_circle/src/uart.xdc rfile:../../../../src/uart.xdc id:1} [current_design]
-set_property src_info {type:XDC file:1 line:3 export:INPUT save:INPUT read:READ} [current_design]
-set_property -dict {PACKAGE_PIN R4 IOSTANDARD LVCMOS15} [get_ports clk]
-set_property src_info {type:XDC file:1 line:4 export:INPUT save:INPUT read:READ} [current_design]
-set_property -dict {PACKAGE_PIN U7 IOSTANDARD LVCMOS15} [get_ports reset_n]
-set_property src_info {type:XDC file:1 line:5 export:INPUT save:INPUT read:READ} [current_design]
-set_property -dict {PACKAGE_PIN D17 IOSTANDARD LVCMOS33} [get_ports uart_txd]
